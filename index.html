@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="./assets/img/senchola-fav-icon.png"type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="home_image">
+                <img src="./assets/img/senchola-logo.png" alt="Senchola University" width="400px">
+            </div>
+            <div class="header">
+                <h1 class="font_color">Senchola Internship Registration form</h1>
+            </div>
+            <form action="" >
+                <fieldset>
+                <div class="form-group">
+                    <label >1. Are you open to learn ?</label>
+                    <div class="radio_button">
+                        <input type="radio"  name="learn" required>
+                        <label style="margin-bottom: 0;">Yes</label>
+                    </div>
+                    <div class="radio_button">
+                        <input class="" type="radio" name="learn" required>
+                        <label style="margin-bottom: 0;">No</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >2. Why you want to join this Program ?</label>
+                    <input type="text"  name="name"required >
+                </div>
+                <div class="form-group">
+                    <label >3. Do you have Laptop ?</label>
+                    <div class="radio_button">
+                        <input type="radio"  name="laptop" >
+                        <label style="margin-bottom: 0;">Yes</label>
+                    </div>
+                    <div class="radio_button">
+                        <input class="" type="radio"  name="laptop" required>
+                        <label style="margin-bottom: 0;">No</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >4. Full Name:</label>
+                    <input type="text"  placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label >5. Gender</label>
+                    <div class="radio_button">
+                        <input type="radio"  name="Gender" required>
+                        <label style="margin-bottom: 0;">Male</label>
+                    </div>
+                    <div class="radio_button">
+                        <input class="" type="radio" name="Gender" required>
+                        <label style="margin-bottom: 0;">Female</label>
+                    </div>
+                    <div class="radio_button">
+                        <input class="" type="radio" name="Gender" required>
+                        <label style="margin-bottom: 0;">Others</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >6. Date of Birth:</label>
+                    <input type="date"   placeholder="Enter Your DOB" required>
+                </div>
+                <div class="form-group">
+                    <label >7. Email:</label>
+                    <input type="email"  name="email" placeholder="Enter Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label >8. Contact Number:</label>
+                    <input type="number"   placeholder="Enter Your mobile number" min="0" required>
+                </div>
+                <div class="form-group">
+                    <label >9. Address:</label>
+                    <textarea name="message" rows="10" cols="80" placeholder="Enter Your address" required></textarea>
+                </div>
+               
+                <div class="form-group">
+                    <label >10. Qualification :</label>
+                    <div class="radio_button">
+                        <input type="radio"  name="Qualification" required>
+                        <label style="margin-bottom: 0;">Engineering</label>
+                    </div>
+                    <div class="radio_button">
+                        <input class="" type="radio" name="Qualification" required>
+                        <label style="margin-bottom: 0;">Arts</label>
+                    </div>
+                    <div class="radio_button">
+                        <input class="" type="radio" name="Qualification" required>
+                        <label style="margin-bottom: 0;">diplamo</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >11. Year of passedout :</label>
+                    <input type="text"  placeholder="Enter passedout Year" required>
+                </div>
+                <div class="form-group">
+                    <label >12. Skills Known :</label>
+                </div>
+                <div class="check_items">
+                    <input type="checkbox"   required>HTML
+                    <input type="checkbox"   required>CSS
+                    <input type="checkbox"   required>Javascript
+                    <input type="checkbox"   required>React
+                    <input type="checkbox"   required>Angular
+                </div>
+                <div class="form-group">
+                    <label >13. Upload your Resume :</label>
+                    <input type="file"  placeholder="Enter passedout Year" required>
+                </div>
+                <div class="form-group register_button">
+                    <button type="submit">Register</button>
+                </div>
+            </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
