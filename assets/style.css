@@ -160,10 +160,17 @@ textarea{
         width: 200px;
     }
     h1{
+        font-size: 14px;
+    }
+    label{
         font-size: 13px;
     }
     img{
         width: 280px;
+    }
+    .check_items{
+        font-size: 13px;
+
     }
   
 }
